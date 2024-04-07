@@ -23,10 +23,9 @@ export const Editor = ()=>{
                 keepRatio={true}
                 snapContainer={".elements"}
                 snapDirections={{"top":true,"left":true,"bottom":true,"right":true}}
-                snapThreshold={0}
                 verticalGuidelines={[50,150,250,450,550]}
                 horizontalGuidelines={[0,100,200,400,500]}
-                bounds={{"left":0,"top":0,"right":0,"bottom":0,"position":"css"}}
+                bounds={{"left":1,"top":1.5,"right":0,"bottom":0,"position":"css"}}
                 resizable={true}
                 rotatable={true}
                 onClickGroup={e => {
@@ -34,6 +33,7 @@ export const Editor = ()=>{
                 }}
                 onDrag={e=>{
                     console.log(e)
+                    e.target.style.transform = e.transform;
                 }}
                 onRender={e => {
                     e.target.style.cssText += e.cssText;
