@@ -1,0 +1,21 @@
+.editor-wrapper{
+    width: calc(100vw - 40px);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.canvas-container{
+    width: 400px;
+    height: 700px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    display: block;
+}
+.target{
+    height: 30px;
+    width: 30px;
+    background: #646cff;
+    display: inline-block;
+    position: absolute;
+
+}
