@@ -12,11 +12,17 @@
     display: block;
     padding: 0px;
 }
-.target{
+.divItems{
     height: 30px;
     width: 30px;
     background: #646cff;
     display: block;
+}
+.target{
     position: absolute;
-
+}
+.imgItem{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }

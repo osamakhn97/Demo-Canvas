@@ -73,9 +73,11 @@ export const Editor = ()=>{
                 }}
             />
            <div className='canvas-container elements selecto-area'>
-               <div className='target'/>
-               <div className='target'/>
-               <div className='target'/>
+               <div className='target divItems'/>
+               <div className='target divItems' />
+               <div className='target divItems'/>
+               <img className='target imgItem' src='https://pngimg.com/uploads/cricket/cricket_PNG111.png' width={200}/>
+               <img className='target imgItem' src='https://media.cnn.com/api/v1/images/stellar/prod/210821084705-cristiano-ronaldo-08-14-2021.jpg?q=w_2086,h_2611,x_0,y_0,c_fill' width={200}/>
            </div>
         </div>
     )
